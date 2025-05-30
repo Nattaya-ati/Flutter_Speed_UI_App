@@ -118,7 +118,7 @@ class _E02PageUiState extends State<E02PageUi> {
             ElevatedButton(
               onPressed: () {},
               child: Text(
-                'Sign In',
+                'Log In',
                 style: TextStyle(
                   color: Colors.white,
                 ),
@@ -182,6 +182,8 @@ class _E02PageUiState extends State<E02PageUi> {
                   ),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.white,
+                    shape: const CircleBorder(), // ทำให้ปุ่มเป็นวงกล
+                    padding: const EdgeInsets.all(16), // ขนาดของปุ่ม
                   ),
                 ),
                 SizedBox(
@@ -196,6 +198,8 @@ class _E02PageUiState extends State<E02PageUi> {
                   ),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.white,
+                    shape: const CircleBorder(), // ทำให้ปุ่มเป็นวงกล
+                    padding: const EdgeInsets.all(16), // ขนาดของปุ่ม
                   ),
                 ),
                 SizedBox(
@@ -210,6 +214,8 @@ class _E02PageUiState extends State<E02PageUi> {
                   ),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.white,
+                    shape: const CircleBorder(), // ทำให้ปุ่มเป็นวงกล
+                    padding: const EdgeInsets.all(16), // ขนาดของปุ่ม
                   ),
                 ),
               ],

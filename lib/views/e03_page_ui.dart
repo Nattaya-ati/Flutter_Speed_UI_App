@@ -293,6 +293,8 @@ class _E03PageUiState extends State<E03PageUi> {
                     ),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.white,
+                      shape: const CircleBorder(), // ทำให้ปุ่มเป็นวงกล
+                      padding: const EdgeInsets.all(16), // ขนาดของปุ่ม
                     ),
                   ),
                   SizedBox(
@@ -307,6 +309,8 @@ class _E03PageUiState extends State<E03PageUi> {
                     ),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.white,
+                      shape: const CircleBorder(), // ทำให้ปุ่มเป็นวงกล
+                      padding: const EdgeInsets.all(16), // ขนาดของปุ่ม
                     ),
                   ),
                   SizedBox(
@@ -321,6 +325,8 @@ class _E03PageUiState extends State<E03PageUi> {
                     ),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.white,
+                      shape: const CircleBorder(), // ทำให้ปุ่มเป็นวงกล
+                      padding: const EdgeInsets.all(16), // ขนาดของปุ่ม
                     ),
                   ),
                 ],
