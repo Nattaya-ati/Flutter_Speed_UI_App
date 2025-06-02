@@ -136,6 +136,9 @@ class _E06PageUiState extends State<E06PageUi> {
                 ),
               ),
             ),
+            SizedBox(
+              height: 20.0,
+            ),
           ],
         ),
       ),

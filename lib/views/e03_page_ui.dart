@@ -360,6 +360,9 @@ class _E03PageUiState extends State<E03PageUi> {
                 ],
               ),
             ),
+            SizedBox(
+              height: 20.0,
+            ),
           ],
         ),
       ),

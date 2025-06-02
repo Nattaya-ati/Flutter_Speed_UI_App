@@ -138,6 +138,9 @@ class _E04PageUiState extends State<E04PageUi> {
                 ],
               ),
             ),
+            SizedBox(
+              height: 20.0,
+            ),
           ],
         ),
       ),
