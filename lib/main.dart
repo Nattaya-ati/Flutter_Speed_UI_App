@@ -9,6 +9,9 @@ import 'package:flutter_speed_ui_app/views/c02_page_ui.dart';
 import 'package:flutter_speed_ui_app/views/c03_page_ui.dart';
 import 'package:flutter_speed_ui_app/views/d01_page_ui.dart';
 import 'package:flutter_speed_ui_app/views/d02_page_ui.dart';
+import 'package:flutter_speed_ui_app/views/d03_page_ui.dart';
+import 'package:flutter_speed_ui_app/views/d04_page_ui.dart';
+import 'package:flutter_speed_ui_app/views/d05_page_ui.dart';
 import 'package:flutter_speed_ui_app/views/e01_page_ui.dart';
 import 'package:flutter_speed_ui_app/views/e02_page_ui.dart';
 import 'package:flutter_speed_ui_app/views/e03_page_ui.dart';
@@ -20,7 +23,12 @@ import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(
-    FlutterSpeedUi(),
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(title: Text('OTP Input')),
+        body: Center(child: D05PageUi()),
+      ),
+    ),
   );
 }
 
@@ -37,7 +45,7 @@ class _FlutterSpeedUiState extends State<FlutterSpeedUi> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: D02PageUi(),
+      home: D05PageUi(),
       theme: ThemeData(
         textTheme: GoogleFonts.kanitTextTheme(
           Theme.of(context).textTheme,
